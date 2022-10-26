@@ -6,5 +6,50 @@
 }
 
 .wrapper {
-  display: flex;
+  position: relative;
+}
+
+.clicked svg {
+  fill: orange;
+}
+
+svg {
+  fill: white;
+}
+
+.lightning {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lightning img {
+  width: 75%;
+  height: 75%;
+}
+
+.house {
+  width: 1000px;
+  position: absolute;
+  top: 450px;
+  left: 30%;
+}
+
+.house img {
+  width: 50%;
+  height: 50%;
+}
+
+.web {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.spider {
+  position: absolute;
+  top: 500px;
+  left: 0;
 }
